@@ -8,13 +8,29 @@ body {
     font-size: 42px; 
 }
 
+#introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #statusText {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 55vh;
     font-size: 28px;
     margin-right: 80px;
     margin-left: 80px;
+    margin-bottom: 0px;
+}
+
+#continueTextBtn {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    width: 30vw;
+    flex:auto;
+    font-size: 24px;
 }
